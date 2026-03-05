@@ -51,11 +51,11 @@ function Products() {
     <div className="products-page">
       <div className="page-header">
         <div>
-          <h1>Mack Genuine Parts Catalog</h1>
+          <h1>XParts Product Catalog</h1>
           <p className="page-subtitle">
             {searchQuery
               ? `Showing ${filteredProducts.length} result${filteredProducts.length !== 1 ? 's' : ''} for "${searchQuery}"`
-              : 'Browse and manage authentic Mack truck parts inventory'
+              : 'Browse and manage authentic parts inventory'
             }
           </p>
         </div>
