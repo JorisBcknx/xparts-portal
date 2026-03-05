@@ -1,0 +1,286 @@
+/* Company Purchase Limits Page */
+.company-purchase-limits-page {
+  padding: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.purchase-limits-filters {
+  margin-bottom: 30px;
+}
+
+/* Purchase Limits List */
+.purchase-limits-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 24px;
+}
+
+.purchase-limit-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s;
+}
+
+.purchase-limit-card:hover {
+  border-color: #d4af37;
+  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.15);
+  transform: translateY(-2px);
+}
+
+.limit-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.user-avatar-large {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.user-email {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.role-badge.company-administrator {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.role-badge.dealer {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.role-badge.purchaser {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.role-badge.approver {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.role-badge.viewer {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.limit-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Limits Grid */
+.limits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.limit-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  min-width: 0; /* Prevent overflow */
+}
+
+.limit-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.limit-icon svg {
+  width: 20px;
+  height: 20px;
+  color: #666;
+}
+
+.limit-content {
+  flex: 1;
+  min-width: 0; /* Prevent overflow */
+  overflow: hidden; /* Prevent text overflow */
+}
+
+.limit-label {
+  font-size: 12px;
+  color: #666;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.limit-value {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+  word-break: break-word; /* Break long numbers if needed */
+}
+
+.limit-value.unlimited {
+  color: #10b981;
+}
+
+.limit-value.none {
+  color: #ef4444;
+}
+
+.limit-value.high {
+  color: #10b981;
+}
+
+.limit-value.medium {
+  color: #f59e0b;
+}
+
+.limit-value.low {
+  color: #ef4444;
+}
+
+/* Approval Info */
+.approval-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1e40af;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.approval-info svg {
+  width: 20px;
+  height: 20px;
+  color: #3b82f6;
+  flex-shrink: 0;
+}
+
+/* Unlimited Badge */
+.unlimited-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: #d1fae5;
+  border: 1px solid #a7f3d0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #065f46;
+  font-weight: 600;
+}
+
+.unlimited-badge svg {
+  width: 20px;
+  height: 20px;
+  color: #10b981;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .limits-grid {
+    gap: 12px;
+  }
+
+  .limit-item {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .limit-value {
+    font-size: 14px;
+  }
+
+  .limit-label {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .purchase-limits-list {
+    grid-template-columns: 1fr;
+  }
+
+  .limits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .company-purchase-limits-page {
+    padding: 20px;
+  }
+
+  .purchase-limit-card {
+    padding: 20px;
+  }
+
+  .limit-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .user-avatar-large {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+}

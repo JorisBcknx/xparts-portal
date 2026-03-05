@@ -1,0 +1,248 @@
+/* Company Budgets Page */
+.company-budgets-page {
+  padding: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.add-budget-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.add-budget-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+}
+
+.add-budget-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.budgets-filters {
+  margin-bottom: 30px;
+}
+
+/* Budgets List */
+.budgets-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 24px;
+}
+
+.budget-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s;
+}
+
+.budget-card:hover {
+  border-color: #d4af37;
+  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.15);
+  transform: translateY(-2px);
+}
+
+.budget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.budget-main-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.budget-code {
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  color: #666;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.budget-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.budget-period,
+.budget-unit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.budget-period svg,
+.budget-unit svg {
+  width: 18px;
+  height: 18px;
+  color: #999;
+}
+
+.budget-cost-centers {
+  margin-bottom: 20px;
+}
+
+.budget-cost-centers strong {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.cost-center-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cost-center-tag {
+  padding: 6px 12px;
+  background: #f3f4f6;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.budget-amounts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.amount-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.amount-row .label {
+  font-size: 14px;
+  color: #666;
+  font-weight: 600;
+}
+
+.amount-row .value {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.amount-row .value.total {
+  color: #1a1a1a;
+}
+
+.amount-row .value.spent {
+  color: #ef4444;
+}
+
+.amount-row .value.remaining {
+  color: #10b981;
+}
+
+.amount-row .value.remaining.negative {
+  color: #dc2626;
+}
+
+.budget-progress {
+  margin-top: 20px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.progress-header .percentage {
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+.progress-bar-container {
+  height: 12px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.5s ease, background 0.3s ease;
+}
+
+/* Status Badge */
+.budget-card .status-badge {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.budget-card .status-badge.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.budget-card .status-badge.exhausted {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .budgets-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .company-budgets-page {
+    padding: 20px;
+  }
+
+  .budget-card {
+    padding: 20px;
+  }
+}

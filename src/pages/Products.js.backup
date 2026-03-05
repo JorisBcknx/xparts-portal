@@ -1,0 +1,120 @@
+import React, { useState } from 'react';
+import './Products.css';
+
+function Products() {
+  const [filter, setFilter] = useState('all');
+
+  const products = [
+    { id: '2191-P181057', name: 'Engine Air Filter (Round)', category: 'Filtration', oem: '2191-P181057', price: '$124.99', stock: 450, status: 'In Stock', image: '/assets/products/air-filter.jpg' },
+    { id: '100121', name: 'Mack Ignition Lock Set', category: 'Electrical', oem: '100121-MACK', price: '$189.99', stock: 120, status: 'In Stock', image: '/assets/products/100121-mack-ignition-lock-set.jpg' },
+    { id: '2191-P600116', name: 'Air Cleaner Cover Assembly', category: 'Filtration', oem: '2191-P600116', price: '$245.99', stock: 85, status: 'Low Stock', image: '/assets/products/Air Cleaner Cover Assembly 2191-P600116.jpg' },
+    { id: '22618326', name: 'Multi-Purpose Sealant', category: 'Maintenance', oem: '22618326', price: '$32.99', stock: 890, status: 'In Stock', image: '/assets/products/Multi‑Purpose Sealant [22618326].jpg' },
+    { id: '85066', name: 'Rear-Drive Shock Absorber', category: 'Suspension', oem: '85066', price: '$456.00', stock: 145, status: 'In Stock', image: '/assets/products/Rear-Drive Shock Absorber [85066].jpg' },
+    { id: '2141-2048', name: 'Pivot Bushing', category: 'Suspension', oem: '2141-2048', price: '$67.50', stock: 320, status: 'In Stock', image: '/assets/products/Pivot Bushing [2141-2048].jpg' },
+    { id: 'NYL-7-8-14', name: 'Nyloc Nut 7/8-14', category: 'Hardware', oem: 'NYL-7-8-14', price: '$8.99', stock: 1540, status: 'In Stock', image: '/assets/products/Nyloc Nut 7-8‑14 [NYL-7-8-14].jpg' },
+    { id: '334-345', name: 'Torque Rod Bolt Assembly', category: 'Hardware', oem: '334-345', price: '$24.50', stock: 15, status: 'Low Stock', image: '/assets/products/Torque Rod Bolt Assembly [334-345].jpg' }
+  ];
+
+  const categories = ['all', 'Filtration', 'Electrical', 'Suspension', 'Maintenance', 'Hardware'];
+
+  const filteredProducts = filter === 'all'
+    ? products
+    : products.filter(p => p.category === filter);
+
+  return (
+    <div className="products-page">
+      <div className="page-header">
+        <div>
+          <h1>Mack Genuine Parts Catalog</h1>
+          <p className="page-subtitle">Browse and manage authentic Mack truck parts inventory</p>
+        </div>
+        <button className="primary-button">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 5V19M5 12H19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          Add New Product
+        </button>
+      </div>
+
+      <div className="filters-section">
+        <div className="filter-tabs">
+          {categories.map(cat => (
+            <button
+              key={cat}
+              className={`filter-tab ${filter === cat ? 'active' : ''}`}
+              onClick={() => setFilter(cat)}
+            >
+              {cat === 'all' ? 'All Products' : cat}
+            </button>
+          ))}
+        </div>
+
+        <div className="search-filter">
+          <svg className="search-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+          <input type="text" placeholder="Search by part name, OEM number, or category..." />
+        </div>
+      </div>
+
+      <div className="products-grid">
+        {filteredProducts.map(product => (
+          <div key={product.id} className="product-card">
+            <div className="product-image">
+              <img src={product.image} alt={product.name} className="product-img" />
+              <span className={`stock-badge ${product.status === 'Low Stock' ? 'low' : 'in-stock'}`}>
+                {product.status}
+              </span>
+            </div>
+
+            <div className="product-details">
+              <div className="product-category">{product.category}</div>
+              <h3 className="product-title">{product.name}</h3>
+
+              <div className="product-specs">
+                <div className="spec-item">
+                  <span className="spec-label">SKU:</span>
+                  <span className="spec-value">{product.id}</span>
+                </div>
+                <div className="spec-item">
+                  <span className="spec-label">OEM:</span>
+                  <span className="spec-value">{product.oem}</span>
+                </div>
+              </div>
+
+              <div className="product-footer">
+                <div className="product-price">{product.price}</div>
+                <div className="product-stock">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 7H4C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7Z" stroke="currentColor" strokeWidth="2"/>
+                    <path d="M16 21V5C16 4.46957 15.7893 3.96086 15.4142 3.58579C15.0391 3.21071 14.5304 3 14 3H10C9.46957 3 8.96086 3.21071 8.58579 3.58579C8.21071 3.96086 8 4.46957 8 5V21" stroke="currentColor" strokeWidth="2"/>
+                  </svg>
+                  {product.stock} units
+                </div>
+              </div>
+
+              <div className="product-actions">
+                <button className="secondary-button">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 4H4C3.46957 4 2.96086 4.21071 2.58579 4.58579C2.21071 4.96086 2 5.46957 2 6V20C2 20.5304 2.21071 21.0391 2.58579 21.4142C2.96086 21.7893 3.46957 22 4 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M18.5 2.50001C18.8978 2.10219 19.4374 1.87869 20 1.87869C20.5626 1.87869 21.1022 2.10219 21.5 2.50001C21.8978 2.89784 22.1213 3.4374 22.1213 4.00001C22.1213 4.56262 21.8978 5.10219 21.5 5.50001L12 15L8 16L9 12L18.5 2.50001Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                  Edit
+                </button>
+                <button className="action-button">
+                  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 12C1 12 5 4 12 4C19 4 23 12 23 12C23 12 19 20 12 20C5 20 1 12 1 12Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                  View
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Products;

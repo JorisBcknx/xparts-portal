@@ -1,0 +1,356 @@
+.asm-bar {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #0d6efd 0%, #0056b3 100%);
+  box-shadow: 0 4px 16px rgba(13, 110, 253, 0.3);
+  z-index: 999;
+}
+
+.asm-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.asm-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.asm-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.asm-indicator svg {
+  width: 18px;
+  height: 18px;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.asm-mode-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.asm-session-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.asm-session-text {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.asm-customer-dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.asm-customer-dropdown-toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.asm-customer-avatar-small {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  color: #000;
+}
+
+.asm-customer-name-text {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dropdown-arrow {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s;
+}
+
+.asm-customer-dropdown-toggle:hover .dropdown-arrow {
+  transform: translateY(2px);
+}
+
+/* Dropdown Menu */
+.asm-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  min-width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  z-index: 1001;
+  animation: dropdownSlide 0.2s ease-out;
+}
+
+@keyframes dropdownSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.asm-dropdown-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.asm-dropdown-avatar {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.asm-dropdown-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.asm-dropdown-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.asm-dropdown-email {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.asm-dropdown-company {
+  font-size: 12px;
+  color: #0d6efd;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.asm-dropdown-divider {
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.asm-dropdown-section {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.asm-dropdown-section:last-child {
+  border-bottom: none;
+}
+
+.asm-dropdown-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.asm-dropdown-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.asm-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.asm-end-session-btn {
+  padding: 8px 16px;
+  background: rgba(220, 53, 69, 0.9);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+}
+
+.asm-end-session-btn:hover {
+  background: #dc3545;
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4);
+}
+
+.asm-end-session-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Adjust main content when ASM is active */
+.app.asm-active {
+  padding-top: 50px;
+}
+
+.app.asm-active .main-content {
+  margin-top: 50px;
+}
+
+@media (max-width: 968px) {
+  .asm-bar-content {
+    padding: 10px 15px;
+  }
+
+  .asm-bar-left {
+    gap: 12px;
+  }
+
+  .asm-mode-label {
+    display: none;
+  }
+
+  .asm-session-text {
+    display: none;
+  }
+
+  .asm-dropdown-menu {
+    min-width: 280px;
+  }
+}
+
+@media (max-width: 576px) {
+  .asm-indicator {
+    padding: 6px 8px;
+  }
+
+  .asm-customer-name-text {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .asm-end-session-btn span {
+    display: none;
+  }
+
+  .asm-end-session-btn {
+    padding: 8px 12px;
+  }
+}
+
+.asm-discrepancies-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: #fef3c7;
+  border: 2px solid #f59e0b;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #92400e;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.asm-discrepancies-btn:hover {
+  background: #fde68a;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+}
+
+.asm-discrepancies-btn svg {
+  width: 18px;
+  height: 18px;
+  stroke: #92400e;
+}
+
+.discrepancy-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #ef4444;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 7px;
+  border-radius: 12px;
+  min-width: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,218 @@
+/* Company Cost Centers Page */
+.company-cost-centers-page {
+  padding: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.add-cost-center-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+.add-cost-center-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+}
+
+.add-cost-center-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cost-centers-filters {
+  margin-bottom: 30px;
+}
+
+/* Cost Centers List */
+.cost-centers-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 24px;
+}
+
+.cost-center-card {
+  background: #fff;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s;
+}
+
+.cost-center-card:hover {
+  border-color: #d4af37;
+  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.15);
+  transform: translateY(-2px);
+}
+
+.cost-center-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.cost-center-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  border: 2px solid #d4af37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cost-center-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: #d4af37;
+}
+
+.cost-center-main-info {
+  flex: 1;
+}
+
+.cost-center-main-info h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 6px;
+}
+
+.cost-center-code {
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+  color: #666;
+  font-weight: 600;
+}
+
+.cost-center-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.detail-row .label {
+  color: #666;
+  font-weight: 600;
+}
+
+.detail-row .value {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.detail-row .value.budget-ref {
+  font-family: 'Roboto Mono', monospace;
+  color: #d4af37;
+  font-size: 13px;
+}
+
+.cost-center-spending {
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.spending-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.spending-row:last-child {
+  margin-bottom: 0;
+}
+
+.spending-row .label {
+  color: #666;
+  font-weight: 600;
+}
+
+.spending-row .value {
+  color: #1a1a1a;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+}
+
+.cost-center-progress {
+  margin-top: 20px;
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.progress-header .percentage {
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+.progress-bar-container {
+  height: 12px;
+  background: #f0f0f0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.5s ease, background 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .cost-centers-list {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .company-cost-centers-page {
+    padding: 20px;
+  }
+
+  .cost-centers-list {
+    grid-template-columns: 1fr;
+  }
+
+  .cost-center-card {
+    padding: 20px;
+  }
+}

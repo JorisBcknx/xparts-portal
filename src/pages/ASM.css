@@ -1,0 +1,734 @@
+.asm-page {
+  padding: 30px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Login Screen */
+.asm-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 140px);
+  padding: 40px;
+}
+
+.asm-login-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 48px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.asm-login-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.asm-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #0d6efd 0%, #0056b3 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  color: #fff;
+}
+
+.asm-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.asm-login-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.asm-login-header p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.asm-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.asm-form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.asm-form-field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.asm-form-field input {
+  padding: 14px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.2s;
+}
+
+.asm-form-field input:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.1);
+}
+
+.asm-login-btn {
+  padding: 16px;
+  background: linear-gradient(135deg, #0d6efd 0%, #0056b3 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.asm-login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(13, 110, 253, 0.3);
+}
+
+.asm-login-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.asm-demo-note {
+  margin-top: 24px;
+  padding: 16px;
+  background: #e7f3ff;
+  border-left: 4px solid #0d6efd;
+  border-radius: 8px;
+}
+
+.asm-demo-note p {
+  font-size: 13px;
+  color: #0056b3;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Authenticated ASM Interface */
+.asm-authenticated {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.asm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #0d6efd 0%, #0056b3 100%);
+  padding: 24px 32px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.asm-header-left h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.asm-header-left p {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.asm-logout-btn {
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.asm-logout-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.asm-logout-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.asm-customer-session {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px 32px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.asm-customer-avatar {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  flex-shrink: 0;
+}
+
+.asm-customer-info {
+  flex: 1;
+}
+
+.asm-customer-info h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.asm-customer-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+.asm-session-badge {
+  padding: 8px 16px;
+  background: #e7f3ff;
+  color: #0d6efd;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.asm-session-badge svg {
+  width: 16px;
+  height: 16px;
+}
+
+.asm-content {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 24px;
+}
+
+.asm-quotes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.asm-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.asm-section-title svg {
+  width: 24px;
+  height: 24px;
+  color: #0d6efd;
+}
+
+.asm-quote-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+}
+
+.asm-quote-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.asm-quote-card.selected {
+  border-color: #0d6efd;
+  box-shadow: 0 4px 16px rgba(13, 110, 253, 0.2);
+}
+
+.asm-quote-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.asm-quote-id {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.asm-quote-status {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.asm-quote-status.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.asm-quote-status.sent {
+  background: #cfe2ff;
+  color: #084298;
+}
+
+.asm-quote-status.accepted {
+  background: #d1e7dd;
+  color: #0f5132;
+}
+
+.asm-quote-status.rejected {
+  background: #f8d7da;
+  color: #842029;
+}
+
+.asm-quote-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: #666;
+}
+
+.asm-quote-date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.asm-quote-date svg {
+  width: 14px;
+  height: 14px;
+}
+
+.asm-quote-total {
+  font-size: 18px;
+  font-weight: 700;
+  color: #d4af37;
+  margin-top: 8px;
+}
+
+.asm-no-quotes {
+  background: #fff;
+  border-radius: 12px;
+  padding: 48px 20px;
+  text-align: center;
+  color: #666;
+}
+
+.asm-no-quotes svg {
+  width: 64px;
+  height: 64px;
+  color: #ccc;
+  margin-bottom: 16px;
+}
+
+.asm-no-quotes p {
+  font-size: 15px;
+  color: #999;
+}
+
+.asm-quote-detail {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.asm-no-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  color: #999;
+}
+
+.asm-no-selection svg {
+  width: 80px;
+  height: 80px;
+  color: #ddd;
+  margin-bottom: 16px;
+}
+
+.asm-no-selection p {
+  font-size: 16px;
+}
+
+.asm-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.asm-detail-header-left h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.asm-detail-header-left p {
+  font-size: 14px;
+  color: #666;
+}
+
+.asm-discount-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  padding: 24px;
+  border: 2px solid #0d6efd;
+}
+
+.asm-discount-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.asm-discount-header svg {
+  width: 24px;
+  height: 24px;
+  color: #0d6efd;
+}
+
+.asm-discount-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.asm-discount-control {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.asm-discount-control label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  white-space: nowrap;
+}
+
+.asm-discount-control input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.asm-discount-control input:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+.asm-apply-btn {
+  padding: 12px 24px;
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.asm-apply-btn:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+}
+
+.asm-discount-preview {
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.asm-discount-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.asm-discount-item label {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.asm-discount-item span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.asm-discount-item.highlight span {
+  color: #0d6efd;
+  font-size: 22px;
+}
+
+.asm-quote-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.asm-quote-item {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+}
+
+.asm-quote-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  flex-shrink: 0;
+}
+
+.asm-quote-item-info {
+  flex: 1;
+}
+
+.asm-quote-item-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.asm-quote-item-code {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.asm-quote-item-details {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+}
+
+.asm-quote-item-qty {
+  color: #666;
+}
+
+.asm-quote-item-price {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.asm-quote-item-discount {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.asm-notes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.asm-notes-section h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.asm-notes-section h3 svg {
+  width: 20px;
+  height: 20px;
+  color: #0d6efd;
+}
+
+.asm-notes-section textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.asm-notes-section textarea:focus {
+  outline: none;
+  border-color: #0d6efd;
+}
+
+.asm-actions {
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.asm-send-btn {
+  flex: 1;
+  padding: 16px 32px;
+  background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.asm-send-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(40, 167, 69, 0.3);
+}
+
+.asm-send-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.asm-send-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.asm-cancel-btn {
+  padding: 16px 32px;
+  background: #fff;
+  color: #dc3545;
+  border: 2px solid #dc3545;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.asm-cancel-btn:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .asm-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .asm-page {
+    padding: 15px;
+  }
+
+  .asm-login-card {
+    padding: 32px 24px;
+  }
+
+  .asm-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .asm-customer-session {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .asm-quote-detail {
+    padding: 20px;
+  }
+
+  .asm-discount-control {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .asm-discount-preview {
+    grid-template-columns: 1fr;
+  }
+
+  .asm-actions {
+    flex-direction: column;
+  }
+}
