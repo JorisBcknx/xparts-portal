@@ -470,12 +470,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
   color: #0066CC;
   border-radius: 8px;
   font-weight: 700;
   font-size: 14px;
-  border: 1px solid #0066CC;
+  border: 2px solid #0066CC;
 }
 
 .product-name {

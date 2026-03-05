@@ -171,7 +171,7 @@
 
 .search-results-header {
   padding: 12px 16px;
-  background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
   color: #0066CC;
   font-size: 13px;
   font-weight: 600;
@@ -474,7 +474,8 @@
   align-items: center;
   gap: 12px;
   padding: 16px;
-  background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
+  border-bottom: 2px solid #0066CC;
 }
 
 .account-dropdown-avatar {
@@ -497,7 +498,7 @@
 }
 
 .account-dropdown-name {
-  color: #fff;
+  color: #0066CC;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 4px;
@@ -507,7 +508,7 @@
 }
 
 .account-dropdown-email {
-  color: rgba(255, 255, 255, 0.7);
+  color: #666;
   font-size: 12px;
   overflow: hidden;
   text-overflow: ellipsis;

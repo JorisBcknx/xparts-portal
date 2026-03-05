@@ -170,8 +170,8 @@
 }
 
 .pos-back-btn:hover {
-  background: #000;
-  color: #0066CC;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  color: #fff;
   border-color: #000;
 }
 
@@ -241,7 +241,7 @@
 }
 
 .pos-clear-btn:hover {
-  background: #000;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
 }
 
 .pos-results {
@@ -648,7 +648,7 @@
 }
 
 .pos-action-btn.secondary:hover {
-  background: #000;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #fff;
   border-color: #000;
 }
@@ -1173,8 +1173,8 @@
 }
 
 .pos-order-details-btn:hover {
-  background: #000;
-  color: #0066CC;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  color: #fff;
   border-color: #000;
 }
 
@@ -1201,7 +1201,7 @@
 .pos-results::-webkit-scrollbar-thumb:hover,
 .pos-detail-panel::-webkit-scrollbar-thumb:hover,
 .pos-single-panel::-webkit-scrollbar-thumb:hover {
-  background: #000;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
 }
 
 /* Order Details Modal */
@@ -1280,8 +1280,8 @@
 }
 
 .pos-modal-close:hover {
-  background: #000;
-  color: #0066CC;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  color: #fff;
 }
 
 .pos-modal-close svg {

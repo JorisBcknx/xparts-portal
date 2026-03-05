@@ -46,9 +46,9 @@
 }
 
 .back-btn:hover {
-  background: #000;
-  color: #0066CC;
-  border-color: #000;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  color: #fff;
+  border-color: #0066CC;
 }
 
 .back-btn svg {
@@ -850,9 +850,9 @@
 }
 
 .continue-shopping-btn:hover {
-  background: #000;
-  color: #0066CC;
-  border-color: #000;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  color: #fff;
+  border-color: #0066CC;
 }
 
 .clear-cart-btn {
@@ -969,9 +969,9 @@
 }
 
 .quote-btn:hover {
-  background: #000;
-  color: #0066CC;
-  border-color: #000;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  color: #fff;
+  border-color: #0066CC;
 }
 
 .checkout-btn svg,

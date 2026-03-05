@@ -141,9 +141,9 @@
 .support-button {
   width: 100%;
   padding: 10px;
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
   color: #0066CC;
-  border: 1px solid #0066CC;
+  border: 2px solid #0066CC;
   border-radius: 8px;
   font-weight: 600;
   font-size: 13px;
