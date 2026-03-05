@@ -275,7 +275,7 @@
 
 .pos-result-item.selected {
   border-color: #000;
-  background: #fffbf0;
+  background: #f0f8ff;
 }
 
 .pos-result-thumb {
@@ -332,7 +332,7 @@
 }
 
 .pos-stock-badge.low-stock {
-  background: #fff3cd;
+  background: #e0f0ff;
   color: #856404;
 }
 
@@ -406,7 +406,7 @@
 }
 
 .pos-price-section {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   border: 2px solid #0066CC;
   border-radius: 12px;
   padding: 20px 24px;
@@ -536,15 +536,15 @@
 }
 
 .pos-warehouse-item:hover {
-  background: #fffbf0;
+  background: #f0f8ff;
 }
 
 .pos-warehouse-item.primary {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 50%, #fff 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 50%, #fff 100%);
 }
 
 .pos-warehouse-item.primary:hover {
-  background: linear-gradient(135deg, #fff9e6 0%, #fffbf0 50%, #f8f9fa 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 50%, #f8f9fa 100%);
 }
 
 .pos-warehouse-info {
@@ -766,7 +766,7 @@
 
 .pos-fv-item.selected {
   border-color: #000;
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -1007,7 +1007,7 @@
 
 .pos-radio-option:hover {
   border-color: #0066CC;
-  background: #fffbf0;
+  background: #f0f8ff;
 }
 
 .pos-radio-option input[type="radio"] {
@@ -1130,7 +1130,7 @@
 }
 
 .pos-order-status.processing {
-  background: #fff3cd;
+  background: #e0f0ff;
   color: #856404;
 }
 

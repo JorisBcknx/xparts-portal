@@ -147,7 +147,7 @@
 }
 
 .quick-order-empty-btn:hover {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
 }
@@ -193,7 +193,7 @@
 
 /* Quick Add Product Section */
 .quick-add-section {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   border: 2px solid #0066CC;
   border-radius: 12px;
   padding: 24px;
@@ -307,7 +307,7 @@
 }
 
 .suggestion-item:hover {
-  background: #fffbf0;
+  background: #f0f8ff;
 }
 
 .suggestion-code {
@@ -428,7 +428,7 @@
 
 /* Quick Add for Empty Cart */
 .quick-add-section-empty {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   border-radius: 12px;
   padding: 30px;
   margin: 30px auto;
@@ -638,7 +638,7 @@
 /* Discount Request Badge */
 .cart-item.has-discount-request {
   border: 2px solid #0066CC !important;
-  background: linear-gradient(135deg, #fffef8 0%, #fff 100%);
+  background: linear-gradient(135deg, #f5f9ff 0%, #fff 100%);
 }
 
 .discount-request-badge {
@@ -1191,7 +1191,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   border-radius: 8px;
   border: 2px solid #0066CC;
   margin-bottom: 16px;
@@ -1488,7 +1488,7 @@
 }
 
 .discount-preview {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   padding: 20px;
   border-radius: 12px;
   border: 2px solid #0066CC;
@@ -1746,20 +1746,20 @@
   border-radius: 12px;
   padding: 40px;
   text-align: center;
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   transition: all 0.3s;
   cursor: pointer;
   margin-bottom: 20px;
 }
 
 .csv-upload-zone:hover {
-  background: linear-gradient(135deg, #fff9e6 0%, #fff5d0 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #d9edff 100%);
   border-color: #c9a332;
 }
 
 .csv-upload-zone.drag-active {
   border-color: #c9a332;
-  background: linear-gradient(135deg, #fff5d0 0%, #ffe6a0 100%);
+  background: linear-gradient(135deg, #d9edff 0%, #ffe6a0 100%);
   transform: scale(1.02);
 }
 

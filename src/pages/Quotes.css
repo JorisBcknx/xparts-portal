@@ -145,7 +145,7 @@
 
 .quote-card.selected {
   border-color: #000;
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -175,7 +175,7 @@
 }
 
 .quote-status.pending {
-  background: #fff3cd;
+  background: #e0f0ff;
   color: #856404;
 }
 
@@ -415,7 +415,7 @@
 
 /* Customer Notes Section */
 .customer-notes-section {
-  background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #e0f0ff 100%);
   border-left: 4px solid #0066CC;
   padding: 20px;
   border-radius: 8px;

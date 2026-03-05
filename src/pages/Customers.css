@@ -137,7 +137,7 @@
 }
 
 .filter-btn.active {
-  background: linear-gradient(135deg, #0066CC 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #FF6B00 100%);
   border-color: #0066CC;
   color: white;
 }
@@ -175,7 +175,7 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #0066CC 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #FF6B00 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,8 +212,8 @@
 }
 
 .status-vip {
-  background: linear-gradient(135deg, rgba(255, 193, 7, 0.2) 0%, rgba(255, 152, 0, 0.2) 100%);
-  color: #ff8c00;
+  background: linear-gradient(135deg, rgba(255, 107, 0, 0.2) 0%, rgba(255, 107, 0, 0.2) 100%);
+  color: #FF6B00;
 }
 
 .customer-details {
@@ -294,7 +294,7 @@
 }
 
 .customer-btn.primary {
-  background: linear-gradient(135deg, #0066CC 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #FF6B00 100%);
   border-color: #0066CC;
   color: white;
 }

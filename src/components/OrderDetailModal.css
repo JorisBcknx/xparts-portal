@@ -172,7 +172,7 @@
 }
 
 .detail-value.payment-pending {
-  color: #ff9800;
+  color: #FF6B00;
 }
 
 .detail-value.payment-refunded {
@@ -191,10 +191,10 @@
 
 /* Partial Delivery Section */
 .partial-delivery-section {
-  background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #e0f0ff 100%);
   padding: 24px;
   border-radius: 12px;
-  border: 2px solid #ffc107;
+  border: 2px solid #FF6B00;
 }
 
 .split-shipment-info {
@@ -215,7 +215,7 @@
 }
 
 .shipment-group.pending {
-  border-color: #ff9800;
+  border-color: #FF6B00;
 }
 
 .shipment-group h4 {
@@ -230,7 +230,7 @@
 }
 
 .shipment-group.pending h4 {
-  color: #ff9800;
+  color: #FF6B00;
 }
 
 .shipment-group ul {
@@ -259,7 +259,7 @@
 .tracking-numbers {
   margin-top: 16px;
   padding-top: 16px;
-  border-top: 2px solid rgba(255, 193, 7, 0.3);
+  border-top: 2px solid rgba(255, 107, 0, 0.3);
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -540,7 +540,7 @@
 
 /* Shipping Addresses */
 .shipping-address-single {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   border: 2px solid #0066CC;
   border-radius: 12px;
   padding: 24px;
@@ -692,14 +692,14 @@
 
 /* Discrepancy Section */
 .discrepancy-section {
-  background: #fff3cd;
+  background: #e0f0ff;
   border: 2px solid #f59e0b !important;
   border-radius: 12px;
   padding: 20px;
 }
 
 .discrepancy-section.pending {
-  background: #fff3cd;
+  background: #e0f0ff;
   border-color: #f59e0b !important;
 }
 
@@ -948,7 +948,7 @@
 }
 
 .checkbox-item:hover {
-  background: #fffbf0;
+  background: #f0f8ff;
   border-color: #f59e0b;
 }
 

@@ -162,8 +162,8 @@
 }
 
 .asm-customer-card.demo-only:hover {
-  border-color: #ffc107;
-  box-shadow: 0 4px 12px rgba(255, 193, 7, 0.15);
+  border-color: #FF6B00;
+  box-shadow: 0 4px 12px rgba(255, 107, 0, 0.15);
 }
 
 .customer-avatar {
@@ -226,7 +226,7 @@
   align-items: center;
   gap: 4px;
   padding: 4px 10px;
-  background: #ffc107;
+  background: #FF6B00;
   color: #000;
   border-radius: 12px;
   font-size: 11px;

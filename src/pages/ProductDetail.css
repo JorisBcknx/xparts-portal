@@ -592,7 +592,7 @@
 }
 
 .warehouse-item.selected {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   border-left-color: #0066CC;
   box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
 }

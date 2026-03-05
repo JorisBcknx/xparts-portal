@@ -139,8 +139,8 @@
 }
 
 .payment-pending {
-  background-color: rgba(255, 193, 7, 0.1);
-  color: #ffc107;
+  background-color: rgba(255, 107, 0, 0.1);
+  color: #FF6B00;
 }
 
 .action-buttons {
@@ -229,7 +229,7 @@
 
 /* Partially Delivered Status */
 .status-badge.status-partial {
-  background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+  background: linear-gradient(135deg, #FF6B00 0%, #FF6B00 100%);
   color: #000;
   font-weight: 700;
 }
@@ -237,13 +237,13 @@
 .partial-delivery-info {
   margin-top: 4px;
   padding: 4px 8px;
-  background: rgba(255, 193, 7, 0.1);
+  background: rgba(255, 107, 0, 0.1);
   border-radius: 4px;
 }
 
 .partial-delivery-info small {
   font-size: 11px;
-  color: #f57c00;
+  color: #FF6B00;
   font-weight: 600;
 }
 
@@ -261,7 +261,7 @@
 }
 
 .status-badge.status-processing {
-  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  background: linear-gradient(135deg, #FF6B00 0%, #FF6B00 100%);
   color: #fff;
 }
 
@@ -295,7 +295,7 @@
 }
 
 .discrepancy-indicator.pending {
-  background: #fff3cd;
+  background: #e0f0ff;
   border-color: #f59e0b;
   color: #92400e;
 }

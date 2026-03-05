@@ -190,7 +190,7 @@
 
 .address-card.selected {
   border-color: #0066CC;
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
   box-shadow: 0 4px 16px rgba(212, 175, 55, 0.3);
 }
 
@@ -489,7 +489,7 @@
 
 .payment-method.selected {
   border-color: #0066CC;
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
 }
 
 .payment-method input[type="radio"] {
@@ -497,7 +497,7 @@
 }
 
 .payment-method input[type="radio"]:checked + label {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
+  background: linear-gradient(135deg, #f0f8ff 0%, #e7f3ff 100%);
 }
 
 .payment-method label {
