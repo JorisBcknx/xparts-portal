@@ -379,7 +379,7 @@
 
 .reman-section-prominent-right .carousel-badge {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -394,7 +394,7 @@
 
 .reman-section-prominent-right .carousel-nav-btn {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   border: 2px solid #0066CC;
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
 }
@@ -866,7 +866,7 @@
   gap: 12px;
   padding: 14px 32px;
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 8px;
   font-size: 18px;

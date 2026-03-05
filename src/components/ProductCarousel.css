@@ -203,7 +203,7 @@
 
 .carousel-card-btn:hover {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   border-color: #0066CC;
   transform: translateX(4px);
 }

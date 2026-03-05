@@ -633,7 +633,7 @@
 
 .pos-action-btn.primary {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
 }
 
 .pos-action-btn.primary:hover {
@@ -1025,7 +1025,7 @@
   width: 100%;
   padding: 18px 32px;
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 8px;
   font-size: 16px;

@@ -206,7 +206,7 @@
 
 .tour-btn-primary {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
 }
 

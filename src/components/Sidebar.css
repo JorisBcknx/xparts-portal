@@ -40,15 +40,15 @@
 
 .nav-item:hover {
   background-color: #f8f8f8;
-  color: #000;
+  color: #0066CC;
   border-left: 3px solid #0066CC;
 }
 
 .nav-item.active {
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
   color: #0066CC;
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.25);
-  border: 1px solid #0066CC;
+  box-shadow: 0 2px 8px rgba(0, 102, 204, 0.15);
+  border-left: 3px solid #0066CC;
 }
 
 .nav-item.active::before {
@@ -82,7 +82,7 @@
 
 .cart-badge {
   background: #0066CC;
-  color: #000;
+  color: #fff;
   font-size: 11px;
   font-weight: 700;
   padding: 3px 8px;
@@ -92,8 +92,8 @@
 }
 
 .nav-item.active .cart-badge {
-  background: #0066CC;
-  color: #000;
+  background: #fff;
+  color: #0066CC;
 }
 
 .sidebar-footer {
@@ -117,7 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: #fff;
 }
 
 .support-icon svg {

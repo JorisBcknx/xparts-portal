@@ -524,7 +524,7 @@
 .btn-primary {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   border: none;
-  color: #000;
+  color: #fff;
 }
 
 .btn-primary:hover {
@@ -607,7 +607,7 @@
 .address-badge {
   padding: 6px 12px;
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   border-radius: 6px;
   font-size: 12px;
   font-weight: 700;

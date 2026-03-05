@@ -33,7 +33,7 @@
 .browse-btn {
   padding: 16px 32px;
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 8px;
   font-size: 16px;
@@ -92,7 +92,7 @@
 
 .step.active .step-number {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
 }
 
@@ -236,7 +236,7 @@
   width: 100%;
   padding: 10px;
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 6px;
   font-size: 13px;
@@ -655,7 +655,7 @@
 .continue-btn,
 .place-order-btn {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
 }
 
@@ -843,7 +843,7 @@
 
 .save-btn {
   background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
-  color: #000;
+  color: #fff;
 }
 
 .save-btn:hover {
