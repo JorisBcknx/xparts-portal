@@ -119,9 +119,9 @@ function Header({ onMenuClick, onViewToggle, isPosView }) {
           <span></span>
         </button>
         <div className="logo">
-          <img src="/assets/dealership-logo.png" alt="Dealership Portal" className="logo-image" />
+          <img src="/assets/XParts logo.png" alt="XParts Portal" className="logo-image" />
           <div className="logo-text">
-            <span className="logo-title">DEALERSHIP</span>
+            <span className="logo-title">XPARTS</span>
             <span className="logo-subtitle">PORTAL</span>
           </div>
         </div>

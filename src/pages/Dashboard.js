@@ -8,6 +8,8 @@ function Dashboard() {
   const [nextSlide, setNextSlide] = useState(null);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
+  // Hero carousel disabled - add hero images to /assets/ to enable
+  /*
   const heroSlides = [
     {
       image: '/assets/showroom.png',
@@ -42,6 +44,7 @@ function Dashboard() {
 
     return () => clearInterval(interval);
   }, [currentSlide, heroSlides.length]);
+  */
 
   const stats = [
     { label: 'Total Orders', value: '1,284', change: '+12.5%', trend: 'up', color: '#d4af37' },
@@ -91,9 +94,9 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-      {/* Hero Carousel */}
+      {/* Hero Carousel - Commented out until hero images are added */}
+      {/*
       <div className="hero-carousel">
-        {/* Current Slide */}
         <div
           className={`carousel-slide ${isTransitioning ? 'sliding-out' : ''}`}
           style={{ backgroundImage: `url(${heroSlides[currentSlide].image})` }}
@@ -106,7 +109,6 @@ function Dashboard() {
           </div>
         </div>
 
-        {/* Next Slide (only visible during transition) */}
         {nextSlide !== null && (
           <div
             className="carousel-slide sliding-in"
@@ -121,7 +123,6 @@ function Dashboard() {
           </div>
         )}
 
-        {/* Indicators */}
         <div className="carousel-indicators">
           {heroSlides.map((_, index) => (
             <button
@@ -132,6 +133,7 @@ function Dashboard() {
           ))}
         </div>
       </div>
+      */}
 
       <div className="page-header">
         <div>
@@ -193,14 +195,10 @@ function Dashboard() {
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor"/>
           </svg>
-          <span className="promo-text">Enjoy a <strong>10% Discount</strong> on Meritor Premium Products!</span>
+          <span className="promo-text">Enjoy a <strong>10% Discount</strong> on Premium Products!</span>
           <div className="promo-badge">LIMITED TIME</div>
         </div>
-        <img
-          src="/assets/meritor-banner.png"
-          alt="Meritor Premium Discount - Save on genuine parts"
-          className="promo-banner-image"
-        />
+        {/* Banner image removed - add to /assets/partner-banner.png to enable */}
       </div>
 
       <div className="dashboard-grid">

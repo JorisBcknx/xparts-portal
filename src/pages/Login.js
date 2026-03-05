@@ -51,8 +51,8 @@ function Login() {
       {/* Left side - Branding */}
       <div className="login-brand-section">
         <div className="brand-content">
-          <img src="/assets/dealership-logo.png" alt="Dealership Portal" className="brand-logo" />
-          <h1 className="brand-title">Dealership Portal</h1>
+          <img src="/assets/XParts logo.png" alt="XParts Portal" className="brand-logo" />
+          <h1 className="brand-title">XParts Portal</h1>
           <p className="brand-subtitle">Your gateway to genuine parts and accessories</p>
 
           {/* Feature highlights */}
