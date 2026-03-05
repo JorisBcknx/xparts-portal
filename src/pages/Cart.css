@@ -560,7 +560,9 @@
   grid-template-columns: 2fr 1fr 0.8fr 1fr 0.8fr 60px;
   gap: 20px;
   padding: 20px 24px;
-  background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
+  border: 2px solid #0066CC;
+  border-radius: 8px 8px 0 0;
   color: #0066CC;
   font-size: 13px;
   font-weight: 700;

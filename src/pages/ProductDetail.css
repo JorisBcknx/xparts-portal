@@ -123,7 +123,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 102, 204, 0.15);
+  backdrop-filter: blur(2px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -335,11 +336,11 @@
 
 /* Remanufactured - Prominent Right Column */
 .reman-section-prominent-right {
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
   border: 3px solid #0066CC;
   border-radius: 12px;
   padding: 24px;
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 102, 204, 0.2);
   margin-top: 20px;
   position: relative;
   overflow: hidden;
@@ -941,7 +942,8 @@
   align-items: center;
   gap: 20px;
   padding: 16px 24px;
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #d9edff 100%);
+  border: 2px solid #0066CC;
   border-radius: 12px;
   margin-bottom: 24px;
   flex-wrap: wrap;
@@ -952,7 +954,8 @@
   flex-direction: column;
   gap: 12px;
   padding: 20px;
-  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  background: linear-gradient(135deg, #e7f3ff 0%, #f0f8ff 100%);
+  border: 2px solid #0066CC;
   border-radius: 12px;
 }
 
