@@ -193,10 +193,10 @@ function ProductDetail() {
   // Bundle components for ULTRASHIFT products
   const isUltrashiftProduct = product.name?.toUpperCase().includes('ULTRASHIFT');
   const bundleComponents = isUltrashiftProduct ? [
-    { code: '85138270', name: 'Air Dryer Kit', quantity: 1, image: '/assets/products/mack-products/85138270-Air-Dryer-Kit.png' },
-    { code: '85153001', name: 'Electronic Control Unit ESP ECU', quantity: 1, image: '/assets/products/mack-products/85153001-Electronic-Control-Unit-ESP-ECU.png' },
-    { code: '3041-40014SP', name: 'Service Parts Kit', quantity: 2, image: '/assets/products/mack-products/3041-40014SP.jpg' },
-    { code: 'LBFL2007F', name: 'Mack Filter Assembly', quantity: 1, image: '/assets/products/mack-products/LBFL2007F.jpg' },
+    { code: '85138270', name: 'Air Dryer Kit', quantity: 1, image: '/assets/products/products/85138270-Air-Dryer-Kit.png' },
+    { code: '85153001', name: 'Electronic Control Unit ESP ECU', quantity: 1, image: '/assets/products/products/85153001-Electronic-Control-Unit-ESP-ECU.png' },
+    { code: '3041-40014SP', name: 'Service Parts Kit', quantity: 2, image: '/assets/products/products/3041-40014SP.jpg' },
+    { code: 'LBFL2007F', name: 'Mack Filter Assembly', quantity: 1, image: '/assets/products/products/LBFL2007F.jpg' },
   ] : null;
 
   return (

@@ -79,8 +79,8 @@ function Login() {
 
           {/* Product images showcase */}
           <div className="product-showcase">
-            <img src="/assets/products/parts/85142795 ULTRASHIFT DM CLUTCH.jpg" alt="Parts" />
-            <img src="/assets/products/parts/3041-40014SP.jpg" alt="Parts" />
+            <img src="/assets/products/products/85142795-ULTRASHIFT-DM-CLUTCH.jpg" alt="Parts" />
+            <img src="/assets/products/products/3041-40014SP.jpg" alt="Parts" />
             <img src="/assets/products/Engine Air Filter (Round) [2191-P181057].jpg" alt="Parts" />
           </div>
         </div>

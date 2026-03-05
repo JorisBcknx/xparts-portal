@@ -6,7 +6,7 @@ export const productsData = [
     price: 1249.99,
     stock: 5,
     description: "OEM ULTRASHIFT DM clutch assembly for Mack trucks. Complete unit designed for automated manual transmission systems, providing reliable performance and durability in heavy-duty applications.",
-    image: "/assets/products/mack-products/85142795-ULTRASHIFT-DM-CLUTCH.jpg"
+    image: "/assets/products/products/85142795-ULTRASHIFT-DM-CLUTCH.jpg"
   },
   {
     code: "85138270",
@@ -15,7 +15,7 @@ export const productsData = [
     price: 245.99,
     stock: 12,
     description: "Complete air dryer kit for Mack trucks. Removes moisture and contaminants from the air brake system, protecting valves and components from corrosion and freezing.",
-    image: "/assets/products/mack-products/85138270-Air-Dryer-Kit.png"
+    image: "/assets/products/products/85138270-Air-Dryer-Kit.png"
   },
   {
     code: "85153001",
@@ -24,7 +24,7 @@ export const productsData = [
     price: 892.50,
     stock: 8,
     description: "Electronic Stability Program (ESP) control unit for Mack trucks. Manages vehicle stability systems to prevent skidding and loss of control in challenging driving conditions.",
-    image: "/assets/products/mack-products/85153001-Electronic-Control-Unit-ESP-ECU.png"
+    image: "/assets/products/products/85153001-Electronic-Control-Unit-ESP-ECU.png"
   },
   {
     code: "3041-40014SP",
@@ -33,7 +33,7 @@ export const productsData = [
     price: 89.99,
     stock: 25,
     description: "Essential service parts kit for maintenance. Includes commonly replaced components and hardware for routine truck servicing.",
-    image: "/assets/products/mack-products/3041-40014SP.jpg"
+    image: "/assets/products/products/3041-40014SP.jpg"
   },
   {
     code: "24019026",
@@ -42,7 +42,7 @@ export const productsData = [
     price: 156.50,
     stock: 15,
     description: "Genuine Mack replacement component. OEM quality part designed for reliable performance and perfect fit.",
-    image: "/assets/products/mack-products/24019026.jpg"
+    image: "/assets/products/products/24019026.jpg"
   },
   {
     code: "LBFL2007F",
@@ -51,7 +51,7 @@ export const productsData = [
     price: 67.99,
     stock: 30,
     description: "Mack filter assembly for optimal performance. High-quality filtration to protect engine and hydraulic systems.",
-    image: "/assets/products/mack-products/LBFL2007F.png"
+    image: "/assets/products/products/LBFL2007F.png"
   },
   {
     code: "2191-P181057",

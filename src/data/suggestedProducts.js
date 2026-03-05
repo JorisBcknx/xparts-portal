@@ -5,7 +5,7 @@ export const suggestedProductsFallback = [
     name: 'Air Dryer Kit',
     price: { value: 245.99 },
     priceFormatted: '$245.99',
-    image: '/assets/products/mack-products/85138270-Air-Dryer-Kit.png',
+    image: '/assets/products/products/85138270-Air-Dryer-Kit.png',
     description: 'Complete air dryer kit for Mack trucks'
   },
   {
@@ -13,7 +13,7 @@ export const suggestedProductsFallback = [
     name: 'ULTRASHIFT DM Clutch Assembly',
     price: { value: 1249.99 },
     priceFormatted: '$1,249.99',
-    image: '/assets/products/mack-products/85142795-ULTRASHIFT-DM-CLUTCH.jpg',
+    image: '/assets/products/products/85142795-ULTRASHIFT-DM-CLUTCH.jpg',
     description: 'OEM ULTRASHIFT DM clutch assembly'
   },
   {
@@ -21,7 +21,7 @@ export const suggestedProductsFallback = [
     name: 'Electronic Control Unit ESP ECU',
     price: { value: 892.50 },
     priceFormatted: '$892.50',
-    image: '/assets/products/mack-products/85153001-Electronic-Control-Unit-ESP-ECU.png',
+    image: '/assets/products/products/85153001-Electronic-Control-Unit-ESP-ECU.png',
     description: 'Electronic Stability Program control unit'
   },
   {
@@ -29,7 +29,7 @@ export const suggestedProductsFallback = [
     name: 'Service Parts Kit',
     price: { value: 89.99 },
     priceFormatted: '$89.99',
-    image: '/assets/products/mack-products/3041-40014SP.jpg',
+    image: '/assets/products/products/3041-40014SP.jpg',
     description: 'Essential service parts kit for maintenance'
   },
   {
@@ -37,7 +37,7 @@ export const suggestedProductsFallback = [
     name: 'Genuine Mack Component',
     price: { value: 156.50 },
     priceFormatted: '$156.50',
-    image: '/assets/products/mack-products/24019026.jpg',
+    image: '/assets/products/products/24019026.jpg',
     description: 'Genuine Mack replacement component'
   },
   {
@@ -45,7 +45,7 @@ export const suggestedProductsFallback = [
     name: 'Mack Filter Assembly',
     price: { value: 67.99 },
     priceFormatted: '$67.99',
-    image: '/assets/products/mack-products/LBFL2007F.png',
+    image: '/assets/products/products/LBFL2007F.png',
     description: 'Mack filter assembly for optimal performance'
   }
 ];
