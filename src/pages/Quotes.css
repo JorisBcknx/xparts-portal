@@ -10,7 +10,7 @@
   align-items: center;
   margin-bottom: 30px;
   padding-bottom: 20px;
-  border-bottom: 3px solid #d4af37;
+  border-bottom: 3px solid #ff6b00;
 }
 
 .quotes-header h1 {
@@ -56,7 +56,7 @@
 
 .browse-btn {
   padding: 16px 32px;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -114,7 +114,7 @@
 
 .filter-btn.active {
   background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
-  color: #d4af37;
+  color: #ff6b00;
   border-color: #000;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .quote-card:hover {
-  border-color: #d4af37;
+  border-color: #ff6b00;
   transform: translateX(4px);
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
 }
@@ -223,7 +223,7 @@
 }
 
 .quote-info-row .value.total {
-  color: #d4af37;
+  color: #ff6b00;
   font-size: 18px;
   font-family: 'Roboto Mono', monospace;
 }
@@ -416,10 +416,10 @@
 /* Customer Notes Section */
 .customer-notes-section {
   background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
-  border-left: 4px solid #d4af37;
+  border-left: 4px solid #ff6b00;
   padding: 20px;
   border-radius: 8px;
-  border: 2px solid #d4af37;
+  border: 2px solid #ff6b00;
 }
 
 .customer-notes-header {
@@ -432,7 +432,7 @@
 .customer-notes-header svg {
   width: 24px;
   height: 24px;
-  color: #d4af37;
+  color: #ff6b00;
 }
 
 .customer-notes-header h3 {
@@ -487,7 +487,7 @@
 .quote-item-code {
   font-size: 13px;
   font-family: 'Roboto Mono', monospace;
-  color: #d4af37;
+  color: #ff6b00;
   font-weight: 600;
   margin-bottom: 4px;
 }
@@ -519,7 +519,7 @@
 .item-subtotal {
   font-size: 18px;
   font-weight: 700;
-  color: #d4af37;
+  color: #ff6b00;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -654,7 +654,7 @@
 
 .summary-line.total span:last-child {
   font-size: 28px;
-  color: #d4af37;
+  color: #ff6b00;
   font-family: 'Roboto Mono', monospace;
   font-weight: 700;
 }
@@ -866,7 +866,7 @@
 
 .modal-body textarea:focus {
   outline: none;
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
 }
 

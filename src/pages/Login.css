@@ -3,18 +3,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 100vh;
-  background: #f5f5f5;
+  background: #ffffff;
 }
 
 /* Left Side - Branding */
 .login-brand-section {
-  background: linear-gradient(135deg, #000 0%, #1a1a1a 50%, #2a2a2a 100%);
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 50%, #f0f2f5 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 60px;
   position: relative;
   overflow: hidden;
+  border-right: 1px solid #e0e0e0;
 }
 
 .login-brand-section::before {
@@ -24,7 +25,7 @@
   right: -50%;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(255, 107, 0, 0.08) 0%, transparent 70%);
   animation: pulse 8s ease-in-out infinite;
 }
 
@@ -46,25 +47,26 @@
 }
 
 .brand-logo {
-  width: 180px;
+  width: 240px;
   height: auto;
   margin-bottom: 30px;
-  filter: brightness(1.2);
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
 }
 
 .brand-title {
   font-size: 42px;
   font-weight: 800;
-  color: #fff;
+  color: #1a1a1a;
   margin-bottom: 16px;
   line-height: 1.2;
 }
 
 .brand-subtitle {
   font-size: 18px;
-  color: #d4af37;
+  color: #ff6b00;
   margin-bottom: 50px;
   line-height: 1.6;
+  font-weight: 500;
 }
 
 .brand-features {
@@ -79,29 +81,30 @@
   align-items: center;
   gap: 16px;
   padding: 16px 20px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 107, 0, 0.05);
   border-radius: 12px;
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 2px solid rgba(255, 107, 0, 0.15);
   transition: all 0.3s;
 }
 
 .feature-item:hover {
-  background: rgba(212, 175, 55, 0.1);
-  border-color: rgba(212, 175, 55, 0.4);
+  background: rgba(255, 107, 0, 0.1);
+  border-color: rgba(255, 107, 0, 0.3);
   transform: translateX(10px);
+  box-shadow: 0 4px 12px rgba(255, 107, 0, 0.15);
 }
 
 .feature-item svg {
   width: 28px;
   height: 28px;
-  color: #d4af37;
+  color: #ff6b00;
   flex-shrink: 0;
 }
 
 .feature-item span {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #1a1a1a;
 }
 
 .product-showcase {
@@ -122,7 +125,7 @@
 
 .product-showcase img:hover {
   transform: scale(1.05);
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
 }
 
@@ -299,7 +302,7 @@
 
 .input-with-icon input:focus {
   outline: none;
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
@@ -349,12 +352,12 @@
   width: 18px;
   height: 18px;
   cursor: pointer;
-  accent-color: #d4af37;
+  accent-color: #ff6b00;
 }
 
 .forgot-password {
   font-size: 14px;
-  color: #d4af37;
+  color: #ff6b00;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s;
@@ -372,20 +375,21 @@
   justify-content: center;
   gap: 10px;
   padding: 18px 32px;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
-  color: #000;
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  color: #fff;
   border: none;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s;
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 107, 0, 0.25);
 }
 
 .login-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+  box-shadow: 0 6px 20px rgba(255, 107, 0, 0.35);
+  background: linear-gradient(135deg, #ff7a1a 0%, #ff9447 100%);
 }
 
 .login-button:disabled {
@@ -459,7 +463,7 @@
 }
 
 .social-login-btn:hover:not(:disabled) {
-  border-color: #d4af37;
+  border-color: #ff6b00;
   background: #fffbf0;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -494,7 +498,7 @@
   margin-top: 32px;
   padding: 20px;
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
-  border: 2px solid #d4af37;
+  border: 2px solid #ff6b00;
   border-radius: 12px;
   text-align: center;
 }
@@ -507,7 +511,7 @@
 
 .demo-credentials strong {
   font-weight: 700;
-  color: #d4af37;
+  color: #ff6b00;
 }
 
 .demo-credentials small {
@@ -545,7 +549,7 @@
 }
 
 .footer-links a:hover {
-  color: #d4af37;
+  color: #ff6b00;
   text-decoration: underline;
 }
 

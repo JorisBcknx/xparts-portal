@@ -112,7 +112,7 @@
 
 .carousel-subtitle {
   font-size: 24px;
-  color: #d4af37;
+  color: #ff6b00;
   margin-bottom: 32px;
   font-weight: 500;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -120,7 +120,7 @@
 
 .carousel-button {
   padding: 16px 48px;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   color: #000;
   border: none;
   border-radius: 4px;
@@ -160,8 +160,8 @@
 }
 
 .indicator.active {
-  background: #d4af37;
-  border-color: #d4af37;
+  background: #ff6b00;
+  border-color: #ff6b00;
   width: 40px;
   border-radius: 6px;
 }
@@ -190,7 +190,7 @@
   align-items: center;
   gap: 8px;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   color: #000;
   border: none;
   border-radius: 6px;
@@ -344,7 +344,7 @@
 .text-button {
   background: none;
   border: none;
-  color: #d4af37;
+  color: #ff6b00;
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;
@@ -389,7 +389,7 @@
 .order-id {
   font-family: 'Roboto Mono', monospace;
   font-weight: 600;
-  color: #d4af37;
+  color: #ff6b00;
 }
 
 .customer-name {
@@ -471,11 +471,11 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
-  color: #d4af37;
+  color: #ff6b00;
   border-radius: 8px;
   font-weight: 700;
   font-size: 14px;
-  border: 1px solid #d4af37;
+  border: 1px solid #ff6b00;
 }
 
 .product-name {
@@ -548,7 +548,7 @@
 
 .action-card:hover {
   background-color: #fff;
-  border-color: #d4af37;
+  border-color: #ff6b00;
   transform: translateY(-2px);
 }
 
@@ -609,7 +609,7 @@
 }
 
 .promo-banner-header {
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   padding: 16px 24px;
   display: flex;
   align-items: center;

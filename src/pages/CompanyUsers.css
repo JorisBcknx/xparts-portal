@@ -32,8 +32,8 @@
 
 .back-button:hover {
   background: #fff;
-  border-color: #d4af37;
-  color: #d4af37;
+  border-color: #ff6b00;
+  color: #ff6b00;
 }
 
 .back-button svg {
@@ -53,7 +53,7 @@
   align-items: center;
   gap: 10px;
   padding: 14px 24px;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -109,7 +109,7 @@
 
 .search-box input:focus {
   outline: none;
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
@@ -140,7 +140,7 @@
 
 .status-filter button.active {
   background: #fff;
-  color: #d4af37;
+  color: #ff6b00;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -160,7 +160,7 @@
 }
 
 .user-card:hover {
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 4px 16px rgba(212, 175, 55, 0.15);
   transform: translateY(-2px);
 }
@@ -175,7 +175,7 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,8 +289,8 @@
 
 .icon-btn:hover {
   background: #fff;
-  border-color: #d4af37;
-  color: #d4af37;
+  border-color: #ff6b00;
+  color: #ff6b00;
 }
 
 .icon-btn.danger:hover {
@@ -468,7 +468,7 @@
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
@@ -490,7 +490,7 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
-  accent-color: #d4af37;
+  accent-color: #ff6b00;
 }
 
 .modal-actions {
@@ -530,7 +530,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   color: #000;
 }
 

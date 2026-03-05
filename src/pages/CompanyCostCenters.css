@@ -10,7 +10,7 @@
   align-items: center;
   gap: 10px;
   padding: 14px 24px;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -51,7 +51,7 @@
 }
 
 .cost-center-card:hover {
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 4px 16px rgba(212, 175, 55, 0.15);
   transform: translateY(-2px);
 }
@@ -70,7 +70,7 @@
   height: 56px;
   border-radius: 12px;
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
-  border: 2px solid #d4af37;
+  border: 2px solid #ff6b00;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +80,7 @@
 .cost-center-icon svg {
   width: 28px;
   height: 28px;
-  stroke: #d4af37;
+  stroke: #ff6b00;
 }
 
 .cost-center-main-info {
@@ -127,7 +127,7 @@
 
 .detail-row .value.budget-ref {
   font-family: 'Roboto Mono', monospace;
-  color: #d4af37;
+  color: #ff6b00;
   font-size: 13px;
 }
 

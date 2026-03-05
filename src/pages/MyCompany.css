@@ -44,7 +44,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,7 +63,7 @@
 
 .company-account {
   font-size: 16px;
-  color: #d4af37;
+  color: #ff6b00;
   font-weight: 600;
   font-family: 'Roboto Mono', monospace;
 }
@@ -132,7 +132,7 @@
 }
 
 .stat-icon.budget {
-  background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
 }
 
 .stat-icon.budget svg {
@@ -169,7 +169,7 @@
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #d4af37 0%, #f4d03f 100%);
+  background: linear-gradient(90deg, #ff6b00 0%, #ff8533 100%);
   border-radius: 3px;
   transition: width 0.5s ease;
 }
@@ -205,7 +205,7 @@
 }
 
 .section-card:hover {
-  border-color: #d4af37;
+  border-color: #ff6b00;
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.2);
   transform: translateY(-4px);
 }
@@ -215,7 +215,7 @@
   height: 56px;
   border-radius: 12px;
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
-  border: 2px solid #d4af37;
+  border: 2px solid #ff6b00;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,7 +225,7 @@
 .section-icon svg {
   width: 28px;
   height: 28px;
-  stroke: #d4af37;
+  stroke: #ff6b00;
 }
 
 .section-content {
@@ -248,7 +248,7 @@
 
 .section-count {
   padding: 4px 12px;
-  background: #d4af37;
+  background: #ff6b00;
   color: #000;
   border-radius: 12px;
   font-size: 13px;
@@ -274,7 +274,7 @@
 }
 
 .section-card:hover .section-arrow {
-  color: #d4af37;
+  color: #ff6b00;
   transform: translateX(4px);
 }
 
