@@ -8,23 +8,26 @@ function Dashboard() {
   const [nextSlide, setNextSlide] = useState(null);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // Hero carousel disabled - add hero images to /assets/ to enable
-  /*
   const heroSlides = [
     {
-      image: '/assets/showroom.png',
-      title: 'Genuine Parts',
+      image: '/assets/hero-slide-1.png',
+      title: 'Premium Quality Parts',
       subtitle: 'Built to Last, Designed to Perform'
     },
     {
-      image: '/assets/hero-trucks.png',
-      title: 'Premium Quality Parts',
-      subtitle: 'For Your Entire Fleet'
+      image: '/assets/hero-slide-2.png',
+      title: 'Complete Parts Inventory',
+      subtitle: 'Everything You Need for Your Fleet'
     },
     {
-      image: '/assets/dealer-repair.jpg',
+      image: '/assets/hero-slide-3.png',
       title: 'Expert Service & Support',
-      subtitle: 'Professional Maintenance Solutions'
+      subtitle: 'Professional Solutions for Every Need'
+    },
+    {
+      image: '/assets/hero-slide-4.png',
+      title: 'Fast & Reliable Delivery',
+      subtitle: 'Get Your Parts When You Need Them'
     }
   ];
 
@@ -44,7 +47,6 @@ function Dashboard() {
 
     return () => clearInterval(interval);
   }, [currentSlide, heroSlides.length]);
-  */
 
   const stats = [
     { label: 'Total Orders', value: '1,284', change: '+12.5%', trend: 'up', color: '#d4af37' },
@@ -94,8 +96,7 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-      {/* Hero Carousel - Commented out until hero images are added */}
-      {/*
+      {/* Hero Carousel */}
       <div className="hero-carousel">
         <div
           className={`carousel-slide ${isTransitioning ? 'sliding-out' : ''}`}
@@ -133,7 +134,6 @@ function Dashboard() {
           ))}
         </div>
       </div>
-      */}
 
       <div className="page-header">
         <div>
