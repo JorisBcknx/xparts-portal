@@ -110,7 +110,7 @@
 
 .search-filter-wide input:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
 }
 
 .filter-buttons {
@@ -132,13 +132,13 @@
 }
 
 .filter-btn:hover {
-  border-color: #ff6b00;
-  color: #ff6b00;
+  border-color: #0066CC;
+  color: #0066CC;
 }
 
 .filter-btn.active {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8c00 100%);
-  border-color: #ff6b00;
+  background: linear-gradient(135deg, #0066CC 0%, #ff8c00 100%);
+  border-color: #0066CC;
   color: white;
 }
 
@@ -157,7 +157,7 @@
 }
 
 .customer-card:hover {
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   transform: translateY(-4px);
 }
@@ -175,7 +175,7 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8c00 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #ff8c00 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -289,13 +289,13 @@
 }
 
 .customer-btn:hover {
-  border-color: #ff6b00;
-  color: #ff6b00;
+  border-color: #0066CC;
+  color: #0066CC;
 }
 
 .customer-btn.primary {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8c00 100%);
-  border-color: #ff6b00;
+  background: linear-gradient(135deg, #0066CC 0%, #ff8c00 100%);
+  border-color: #0066CC;
   color: white;
 }
 

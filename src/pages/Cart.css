@@ -12,7 +12,7 @@
   align-items: center;
   margin-bottom: 30px;
   padding-bottom: 20px;
-  border-bottom: 3px solid #ff6b00;
+  border-bottom: 3px solid #0066CC;
 }
 
 .cart-header h1 {
@@ -47,7 +47,7 @@
 
 .back-btn:hover {
   background: #000;
-  color: #ff6b00;
+  color: #0066CC;
   border-color: #000;
 }
 
@@ -87,7 +87,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 32px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -135,7 +135,7 @@
   padding: 0 32px;
   background: #fff;
   color: #000;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   border-radius: 8px;
   font-size: 15px;
   font-weight: 700;
@@ -175,7 +175,7 @@
 .browse-btn-csv {
   display: inline-block;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border-radius: 8px;
   font-size: 15px;
@@ -194,7 +194,7 @@
 /* Quick Add Product Section */
 .quick-add-section {
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 24px;
@@ -271,7 +271,7 @@
 
 .quick-add-input:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
@@ -281,7 +281,7 @@
   left: 0;
   right: 0;
   background: white;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   border-top: none;
   border-radius: 0 0 8px 8px;
   max-height: 320px;
@@ -332,7 +332,7 @@
 }
 
 .quick-add-input:focus + .quick-add-suggestions {
-  border-color: #ff6b00;
+  border-color: #0066CC;
 }
 
 .quick-add-qty {
@@ -350,7 +350,7 @@
 
 .quick-add-qty:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
@@ -360,7 +360,7 @@
   justify-content: center;
   gap: 8px;
   padding: 0 24px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -434,7 +434,7 @@
   margin: 30px auto;
   max-width: 600px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
 }
 
 .quick-add-section-empty h3 {
@@ -476,14 +476,14 @@
 
 .quick-add-section-empty .quick-add-input:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
 .quick-add-section-empty .quick-add-suggestions {
   margin-top: 0;
   border-radius: 8px;
-  border-top: 2px solid #ff6b00;
+  border-top: 2px solid #0066CC;
   top: calc(100% + 8px);
 }
 
@@ -502,7 +502,7 @@
 
 .quick-add-section-empty .quick-add-qty:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
 
@@ -512,7 +512,7 @@
   justify-content: center;
   gap: 8px;
   padding: 0 24px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -561,7 +561,7 @@
   gap: 20px;
   padding: 20px 24px;
   background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
-  color: #ff6b00;
+  color: #0066CC;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -625,7 +625,7 @@
 .cart-item-code {
   font-size: 13px;
   font-family: 'Roboto Mono', monospace;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 600;
   margin-bottom: 4px;
 }
@@ -637,7 +637,7 @@
 
 /* Discount Request Badge */
 .cart-item.has-discount-request {
-  border: 2px solid #ff6b00 !important;
+  border: 2px solid #0066CC !important;
   background: linear-gradient(135deg, #fffef8 0%, #fff 100%);
 }
 
@@ -647,7 +647,7 @@
   gap: 6px;
   margin-top: 8px;
   padding: 6px 12px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   border-radius: 20px;
   color: #000;
   font-size: 12px;
@@ -717,7 +717,7 @@
 }
 
 .col-subtotal {
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 /* Quantity Control */
@@ -753,9 +753,9 @@
 }
 
 .qty-btn:hover:not(:disabled) {
-  background: #ff6b00;
+  background: #0066CC;
   color: #fff;
-  border-color: #ff6b00;
+  border-color: #0066CC;
 }
 
 .qty-btn:disabled {
@@ -849,7 +849,7 @@
 
 .continue-shopping-btn:hover {
   background: #000;
-  color: #ff6b00;
+  color: #0066CC;
   border-color: #000;
 }
 
@@ -926,7 +926,7 @@
 
 .total-amount {
   font-size: 28px;
-  color: #ff6b00;
+  color: #0066CC;
   font-family: 'Roboto Mono', monospace;
   line-height: 1;
 }
@@ -950,7 +950,7 @@
 }
 
 .checkout-btn {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border: none;
 }
@@ -968,7 +968,7 @@
 
 .quote-btn:hover {
   background: #000;
-  color: #ff6b00;
+  color: #0066CC;
   border-color: #000;
 }
 
@@ -1026,7 +1026,7 @@
 .quote-form-header svg {
   width: 32px;
   height: 32px;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .quote-form-header h3 {
@@ -1072,7 +1072,7 @@
 .form-field input:focus,
 .form-field textarea:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
 }
 
@@ -1084,7 +1084,7 @@
 .submit-quote-btn {
   width: 100%;
   padding: 16px 24px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -1176,7 +1176,7 @@
 .quote-item-code {
   font-size: 12px;
   font-family: 'Roboto Mono', monospace;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 600;
   margin-bottom: 4px;
 }
@@ -1193,7 +1193,7 @@
   padding: 16px;
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
   border-radius: 8px;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   margin-bottom: 16px;
 }
 
@@ -1206,7 +1206,7 @@
 .quote-total-amount {
   font-size: 24px;
   font-weight: 700;
-  color: #ff6b00;
+  color: #0066CC;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -1228,7 +1228,7 @@
   align-items: center;
   justify-content: center;
   background: #fff;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s;
@@ -1236,8 +1236,8 @@
 }
 
 .discount-request-btn:hover {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
-  border-color: #ff6b00;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  border-color: #0066CC;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
 }
@@ -1245,7 +1245,7 @@
 .discount-request-btn svg {
   width: 18px;
   height: 18px;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .discount-request-btn:hover svg {
@@ -1253,8 +1253,8 @@
 }
 
 .discount-request-btn.has-request {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
-  border-color: #ff6b00;
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
+  border-color: #0066CC;
 }
 
 .discount-request-btn.has-request svg {
@@ -1359,7 +1359,7 @@
 .discount-modal-header svg {
   width: 32px;
   height: 32px;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .discount-modal-header h2 {
@@ -1411,7 +1411,7 @@
 .discount-item-code {
   font-size: 14px;
   font-family: 'Roboto Mono', monospace;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 600;
 }
 
@@ -1470,7 +1470,7 @@
 .discount-form-field input:focus,
 .discount-form-field textarea:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
 }
 
@@ -1491,7 +1491,7 @@
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
   padding: 20px;
   border-radius: 12px;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   margin-bottom: 24px;
 }
 
@@ -1530,7 +1530,7 @@
 }
 
 .preview-row.total span:last-child {
-  color: #ff6b00;
+  color: #0066CC;
   font-size: 20px;
 }
 
@@ -1593,7 +1593,7 @@
 }
 
 .submit-discount-btn {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   border: none;
   color: #000;
 }
@@ -1682,7 +1682,7 @@
   align-items: center;
   gap: 10px;
   padding: 14px 24px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -1724,7 +1724,7 @@
 .quick-order-header svg {
   width: 48px;
   height: 48px;
-  color: #ff6b00;
+  color: #0066CC;
   flex-shrink: 0;
 }
 
@@ -1742,7 +1742,7 @@
 }
 
 .csv-upload-zone {
-  border: 3px dashed #ff6b00;
+  border: 3px dashed #0066CC;
   border-radius: 12px;
   padding: 40px;
   text-align: center;
@@ -1766,7 +1766,7 @@
 .csv-upload-zone svg {
   width: 64px;
   height: 64px;
-  color: #ff6b00;
+  color: #0066CC;
   margin-bottom: 16px;
 }
 
@@ -1786,7 +1786,7 @@
 .browse-btn {
   display: inline-block;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border-radius: 8px;
   font-size: 15px;
@@ -1852,7 +1852,7 @@
   background: #f8f9fa;
   border-radius: 8px;
   padding: 20px;
-  border-left: 4px solid #ff6b00;
+  border-left: 4px solid #0066CC;
 }
 
 .csv-format-info h4 {
@@ -1891,7 +1891,7 @@
   padding: 4px 8px;
   border-radius: 4px;
   font-family: 'Roboto Mono', monospace;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 600;
   border: 1px solid #e0e0e0;
 }

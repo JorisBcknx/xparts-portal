@@ -25,7 +25,7 @@
 }
 
 .purchase-limit-card:hover {
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 4px 16px rgba(212, 175, 55, 0.15);
   transform: translateY(-2px);
 }
@@ -43,7 +43,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   display: flex;
   align-items: center;

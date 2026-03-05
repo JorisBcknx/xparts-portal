@@ -23,7 +23,7 @@
   content: '';
   width: 4px;
   height: 28px;
-  background: #ff6b00;
+  background: #0066CC;
   border-radius: 2px;
 }
 
@@ -36,9 +36,9 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   background: white;
-  color: #ff6b00;
+  color: #0066CC;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,7 @@
 }
 
 .carousel-btn:hover:not(:disabled) {
-  background: #ff6b00;
+  background: #0066CC;
   color: white;
   transform: scale(1.1);
 }
@@ -88,7 +88,7 @@
 }
 
 .carousel-card:hover {
-  border-color: #ff6b00;
+  border-color: #0066CC;
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
@@ -167,7 +167,7 @@
 .carousel-card-code {
   font-family: 'Roboto Mono', monospace;
   font-size: 12px;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 600;
   margin-bottom: 16px;
 }
@@ -183,7 +183,7 @@
 .carousel-card-price {
   font-size: 22px;
   font-weight: 700;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .carousel-card-btn {
@@ -192,8 +192,8 @@
   gap: 6px;
   padding: 8px 16px;
   background: linear-gradient(135deg, #000 0%, #1a1a1a 100%);
-  color: #ff6b00;
-  border: 1px solid #ff6b00;
+  color: #0066CC;
+  border: 1px solid #0066CC;
   border-radius: 6px;
   font-size: 13px;
   font-weight: 600;
@@ -202,9 +202,9 @@
 }
 
 .carousel-card-btn:hover {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
-  border-color: #ff6b00;
+  border-color: #0066CC;
   transform: translateX(4px);
 }
 

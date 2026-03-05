@@ -115,14 +115,14 @@
 
 .toggle-btn.active {
   background: white;
-  color: #ff6b00;
+  color: #0066CC;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .sku-cell {
   font-family: 'Roboto Mono', monospace;
   font-weight: 600;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .name-cell {
@@ -215,7 +215,7 @@
 .action-link {
   background: none;
   border: none;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;

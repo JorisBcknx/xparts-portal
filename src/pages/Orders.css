@@ -103,7 +103,7 @@
 
 .filter-group select:focus {
   outline: none;
-  border-color: #ff6b00;
+  border-color: #0066CC;
 }
 
 .customer-info {
@@ -163,7 +163,7 @@
 }
 
 .icon-btn:hover {
-  background-color: #ff6b00;
+  background-color: #0066CC;
   color: white;
   transform: scale(1.1);
 }
@@ -186,7 +186,7 @@
 /* Quote Reference in Order */
 .quote-reference {
   font-size: 11px;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 600;
   margin-top: 4px;
   display: flex;

@@ -95,7 +95,7 @@
 .order-modal-id {
   font-size: 16px;
   font-weight: 600;
-  color: #ff6b00;
+  color: #0066CC;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -138,7 +138,7 @@
 .order-detail-section h3 svg {
   width: 22px;
   height: 22px;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .order-detail-grid {
@@ -185,7 +185,7 @@
 }
 
 .quote-ref {
-  color: #ff6b00;
+  color: #0066CC;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -299,7 +299,7 @@
 }
 
 .order-item-row:hover {
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
 }
 
@@ -344,7 +344,7 @@
 
 .order-item-shipping-to {
   font-size: 12px;
-  color: #ff6b00;
+  color: #0066CC;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -400,14 +400,14 @@
 .order-item-total {
   font-size: 18px;
   font-weight: 700;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 /* Order Notes */
 .order-notes {
   padding: 16px;
   background: #f8f9fa;
-  border-left: 4px solid #ff6b00;
+  border-left: 4px solid #0066CC;
   border-radius: 8px;
   font-size: 14px;
   color: #666;
@@ -436,7 +436,7 @@
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   padding: 24px;
   border-radius: 12px;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
 }
 
 .order-summary-lines {
@@ -483,7 +483,7 @@
 }
 
 .summary-line.total span {
-  color: #ff6b00;
+  color: #0066CC;
   font-size: 24px;
 }
 
@@ -522,7 +522,7 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   border: none;
   color: #000;
 }
@@ -541,7 +541,7 @@
 /* Shipping Addresses */
 .shipping-address-single {
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   border-radius: 12px;
   padding: 24px;
 }
@@ -591,7 +591,7 @@
 }
 
 .shipping-address-card:hover {
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.15);
 }
 
@@ -606,7 +606,7 @@
 
 .address-badge {
   padding: 6px 12px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border-radius: 6px;
   font-size: 12px;
@@ -656,7 +656,7 @@
   padding: 6px 12px;
   background: #fff;
   border-radius: 6px;
-  border-left: 3px solid #ff6b00;
+  border-left: 3px solid #0066CC;
 }
 
 @media (max-width: 768px) {

@@ -28,7 +28,7 @@
 }
 
 .breadcrumb-item a:hover {
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .breadcrumb-item .current {
@@ -57,7 +57,7 @@
   width: 60px;
   height: 60px;
   border: 4px solid #f0f0f0;
-  border-top: 4px solid #ff6b00;
+  border-top: 4px solid #0066CC;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin-bottom: 20px;
@@ -163,11 +163,11 @@
 }
 
 .thumbnail:hover {
-  border-color: #ff6b00;
+  border-color: #0066CC;
 }
 
 .thumbnail.active {
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
 }
 
@@ -207,7 +207,7 @@
 .bundle-header svg {
   width: 24px;
   height: 24px;
-  color: #ff6b00;
+  color: #0066CC;
   flex-shrink: 0;
 }
 
@@ -242,7 +242,7 @@
 }
 
 .bundle-item:hover {
-  border-color: #ff6b00;
+  border-color: #0066CC;
   box-shadow: 0 2px 8px rgba(212, 175, 55, 0.15);
   transform: translateX(4px);
 }
@@ -336,7 +336,7 @@
 /* Remanufactured - Prominent Right Column */
 .reman-section-prominent-right {
   background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
-  border: 3px solid #ff6b00;
+  border: 3px solid #0066CC;
   border-radius: 12px;
   padding: 24px;
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
@@ -352,7 +352,7 @@
 }
 
 .reman-section-prominent-right .carousel-header h2 {
-  color: #ff6b00;
+  color: #0066CC;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -367,18 +367,18 @@
 
 .reman-section-prominent-right .carousel-card {
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .reman-section-prominent-right .carousel-card:hover {
-  border-color: #ff8533;
+  border-color: #0080FF;
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
   transform: translateY(-4px);
 }
 
 .reman-section-prominent-right .carousel-badge {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   font-weight: 700;
   text-transform: uppercase;
@@ -387,20 +387,20 @@
 }
 
 .reman-section-prominent-right .card-price {
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 700;
   font-size: 20px;
 }
 
 .reman-section-prominent-right .carousel-nav-btn {
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
-  border: 2px solid #ff6b00;
+  border: 2px solid #0066CC;
   box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
 }
 
 .reman-section-prominent-right .carousel-nav-btn:hover:not(:disabled) {
-  background: linear-gradient(135deg, #ff8533 0%, #ff6b00 100%);
+  background: linear-gradient(135deg, #0080FF 0%, #0066CC 100%);
   box-shadow: 0 6px 16px rgba(212, 175, 55, 0.5);
 }
 
@@ -466,7 +466,7 @@
 
 .code-value {
   font-family: 'Roboto Mono', monospace;
-  color: #ff6b00;
+  color: #0066CC;
   font-weight: 700;
   font-size: 16px;
 }
@@ -490,7 +490,7 @@
 .price-main {
   font-size: 36px;
   font-weight: 700;
-  color: #ff6b00;
+  color: #0066CC;
   line-height: 1;
 }
 
@@ -564,7 +564,7 @@
 .warehouse-header svg {
   width: 16px;
   height: 16px;
-  color: #ff6b00;
+  color: #0066CC;
 }
 
 .warehouse-list {
@@ -593,7 +593,7 @@
 
 .warehouse-item.selected {
   background: linear-gradient(135deg, #fffbf0 0%, #fff9e6 100%);
-  border-left-color: #ff6b00;
+  border-left-color: #0066CC;
   box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
 }
 
@@ -603,7 +603,7 @@
   right: 8px;
   width: 24px;
   height: 24px;
-  background: #ff6b00;
+  background: #0066CC;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -617,7 +617,7 @@
 }
 
 .warehouse-item.primary {
-  border-left-color: #ff6b00;
+  border-left-color: #0066CC;
   background: rgba(212, 175, 55, 0.08);
 }
 
@@ -657,7 +657,7 @@
 .warehouse-price {
   font-size: 13px;
   font-weight: 700;
-  color: #ff6b00;
+  color: #0066CC;
   font-family: 'Roboto Mono', monospace;
   text-align: right;
   white-space: nowrap;
@@ -838,7 +838,7 @@
 }
 
 .qty-btn:hover:not(:disabled) {
-  background: #ff6b00;
+  background: #0066CC;
   color: white;
 }
 
@@ -865,7 +865,7 @@
   justify-content: center;
   gap: 12px;
   padding: 14px 32px;
-  background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+  background: linear-gradient(135deg, #0066CC 0%, #0080FF 100%);
   color: #000;
   border: none;
   border-radius: 8px;
@@ -930,8 +930,8 @@
 }
 
 .category-tag:hover {
-  border-color: #ff6b00;
-  color: #ff6b00;
+  border-color: #0066CC;
+  color: #0066CC;
 }
 
 /* Highlights - Top Banner */
@@ -960,7 +960,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #ff6b00;
+  color: #0066CC;
   font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
@@ -1024,7 +1024,7 @@
   content: '';
   width: 4px;
   height: 28px;
-  background: #ff6b00;
+  background: #0066CC;
   border-radius: 2px;
 }
 
